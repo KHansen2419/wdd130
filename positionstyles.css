@@ -34,26 +34,45 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  position: relative;
+  z-index: 1;
+  left: 65%;
+  top: 65%
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  position: absolute;
+  z-index: 2; 
+  left: 65%;
+  top: 65%
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  position: absolute;
+  z-index: 3; 
+  left: 65%;
+  top: 65%
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  position: absolute;
+  z-index: 4; 
+  left: 65%;
+  top: 65% 
 } 
 /* Activity 3 styles */ 
 .content3 {
