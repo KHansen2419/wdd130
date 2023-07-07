@@ -43,7 +43,7 @@
   height: 100px; 
   background-color: red; 
   position: relative;
-  z-index: 1;
+  z-index: auto;
   left: 65%;
   top: 65%
 } 
@@ -52,7 +52,7 @@
   height: 100px; 
   background-color: green; 
   position: absolute;
-  z-index: 2; 
+  z-index: auto; 
   left: 65%;
   top: 65%
 } 
@@ -61,7 +61,7 @@
   height: 100px; 
   background-color: gold; 
   position: absolute;
-  z-index: 3; 
+  z-index: auto; 
   left: 65%;
   top: 65%
 } 
@@ -70,7 +70,7 @@
   height: 100px; 
   background-color: blue;
   position: absolute;
-  z-index: 4; 
+  z-index: auto; 
   left: 65%;
   top: 65% 
 } 
