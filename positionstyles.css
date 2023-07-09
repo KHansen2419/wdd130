@@ -35,14 +35,15 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr;
   position: relative;
+  z-index: auto;
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  position: relative;
+  position: absolute;
   z-index: auto;
   left: 0%;
   top: 0%
@@ -51,7 +52,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  position: absolute;
+  position: relative;
   z-index: auto; 
   left: 6%;
   top: 6%
@@ -62,17 +63,17 @@
   background-color: gold; 
   position: absolute;
   z-index: auto; 
-  left: 6%;
-  top: 6%
+  left: 12%;
+  top: 12%
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue;
-  position: absolute;
+  position: relative;
   z-index: auto; 
-  left: 6%;
-  top: 6% 
+  left: 20%;
+  top: 20% 
 } 
 /* Activity 3 styles */ 
 .content3 {
