@@ -14,10 +14,14 @@ div {
   #content{margin: 0 auto;}
 
 
-#hero-msg h1{ text-align: center;}
+#hero-msg h1{ text-align: center;
+    font-family: 'Caveat', 'Helvetica', 'sans-serif' }
 #hero-msg h4 { 
     text-align: center;
     color: white;
+    background-color: #606c38;
+    opacity: .6;
+    font-family: 'Playfair Display', 'Helvetica', 'sans-serif';
 }
 .button-box {text-align: center;}
 main section{ text-align: center;
@@ -90,12 +94,13 @@ nav a:hover {
     margin-top: 10px;
 }
 h4{
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #606c38;
+    opacity: .6;
+    color: white;
     font-family: 'Playfair Display', 'Helvetica', 'sans-serif';
 }
 .book, .join{
-    background-color: #8491A3;
+    background-color: #606c38;
     color: #000000;
     text-align: center;
     text-decoration: none;
