@@ -42,6 +42,7 @@ header {
     background-color:rgba(20,30,13, .7);
     display: grid;
     grid-template-columns: 150px auto;}
+.logo { width: 80px; } 
 .logo #hero-img{
     width: 100%;
     padding-top: 10px;}
@@ -127,6 +128,7 @@ body {
 }
 
 /*display grid*/
+.logo { width: 80px; } 
 .icon {width: 80px;
     padding-top: 10px;
 }
@@ -263,3 +265,4 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
