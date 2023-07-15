@@ -169,7 +169,7 @@ main section img {
             <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way m*/
 
 .msg{
-    background-color: #79483E;
+    background-color: #606c38;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -177,11 +177,11 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.msg h2{color: #283618;
-    background-color: white ;
+.msg h2{color: #d9c2a3;
+    background-color: #79483E ;
     font-family: 'Caveat', 'Helvetica', 'sans-serif';}
 .msg p{color: #d9c2a3;
-    background-color:black ;
+    background-color:#79483E ;
     font-family: 'Playfair Display', 'Helvetica', 'sans-serif';
     padding-bottom: 15px;}
 h2 {
