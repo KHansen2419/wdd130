@@ -69,7 +69,9 @@ header {
     grid-row: 1/2;
     margin-top: 100px;}
 #hero-msg h1{ text-align: center;
-    font-family: 'Caveat', 'Helvetica', 'sans-serif'}
+    font-family: 'Caveat', 'Helvetica', 'sans-serif';
+    background-color: #79483E;
+    color: white;}}
 #hero-msg h4{ text-align: center;
     color: white;
     background-color: #606c38;
