@@ -56,8 +56,7 @@ background-color: #F4A261;
 color: black;
 }
 
-/*hero images (main photo) and menu <h1 class="home-title">Have An Adventure</h1>
-            <h4>Make Memories with Dry Oar </h4>*/
+/*hero images (main photo) and menu <h1 class="home-title">Have An Adventure</h1>*/
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -117,7 +116,7 @@ body {
 main section img {
     box-sizing: border-box;
 }
-.home-grid h2:nth-of-type(h2){margin: auto 0;
+.home-grid h2:nth-of-type(1){margin: auto 0;
 font-family: 'Lobster Two', 'noto sans', sans-serif;
   width: 50%;
   border: 3px solid #2A9D8F;
