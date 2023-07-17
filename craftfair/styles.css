@@ -30,7 +30,7 @@ header {
     background-color:white;
     display: grid;
     grid-template-columns: 150px auto;}
-.logo { width: 150px; } 
+.logo { width: 200px; } 
 .logo #hero-img{
     width: 100%;
     padding-top: 10px;}
