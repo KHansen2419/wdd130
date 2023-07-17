@@ -56,7 +56,8 @@ background-color: #F4A261;
 color: black;
 }
 
-/*hero images (main photo) and menu <h1 class="home-title">Have An Adventure</h1>*/
+/*hero images (main photo) and menu <h1 class="home-title">Snake Valley Craft Fair</h1>
+            */
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -73,7 +74,7 @@ color: black;
 /*body of page */
 body {
     background-color: #fefae0; 
-    font-family: 'Playfair Display', 'Helvetica', 'sans-serif';
+    font-family: 'Noto sans', 'Helvetica', 'sans-serif';
     font-size: 22px;
     margin: 0;
     padding: 0; 
@@ -85,7 +86,8 @@ body {
     grid-template-columns: repeat(10, 1fr); 
     gap: 20px;
         }
-.logo { width: 80px; } 
+.logo { width: 80px; 
+background-color: #2A9D8F;} 
 .icon {width: 80px;
     padding-top: 10px;
 }
@@ -94,18 +96,24 @@ body {
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
+    width: 80px;
+    padding-top: 10px;
 } 
 .become-a-vendor-card{
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
+    width: 80px;
+    padding-top: 10px;
 } 
 .contact-us-card{    margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
+    width: 80px;
+    padding-top: 10px;
 }
 .card-img {
-    border: 10px solid #E9C46A;
+    border: 10px solid #E76F51;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #F4A261;
 }
@@ -116,11 +124,22 @@ body {
 main section img {
     box-sizing: border-box;
 }
-.home-grid h2:nth-of-type(1){margin: auto 0;
+.home-grid h2{margin: auto 0;
 font-family: 'Lobster Two', 'noto sans', sans-serif;
   width: 50%;
-  border: 3px solid #2A9D8F;
+  border: 10px solid #E76F51;
   padding: 10px;
+  text-align: center;
+}
+.home-grid h2:hover{
+    margin: auto 0;
+font-family: 'noto sans', sans-serif;
+width: 50%;
+border: 10px solid #E76F51;
+padding: 10px;
+text-align: center;
+background-color: #2A9D8F;
+color: black;
 }
 
 
