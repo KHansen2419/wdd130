@@ -61,7 +61,7 @@ color: black;
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 5px;}
+    margin-top: 10px;}
 #hero-msg h1{ text-align: center;
     font-family: 'Lobster Two', 'Noto sans', 'sans-serif';
     background-color: #F4A261;
@@ -85,8 +85,7 @@ body {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
-    gap: 20px;
-        }
+    }
 .logo { width: 80px; 
 background-color: #2A9D8F;} 
 .icon {width: 80px;
@@ -98,6 +97,7 @@ background-color: #2A9D8F;}
     grid-column: 2/4;
     grid-row: 2/3;
     width: 80px;
+    height: 80px;
     padding-top: 10px;
 } 
 .become-a-vendor-card{
@@ -106,12 +106,14 @@ background-color: #2A9D8F;}
     grid-row: 2/3;
     width: 80px;
     padding-top: 10px;
+    height: 80px;
 } 
 .contact-us-card{    margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
     width: 80px;
     padding-top: 10px;
+    height: 80px;
 }
 .card-img {
     border: 10px solid #E76F51;
@@ -125,23 +127,25 @@ background-color: #2A9D8F;}
 main section img {
     box-sizing: border-box;
 }
-.home-grid h2{margin: auto 0;
-font-family: 'Lobster Two', 'noto sans', sans-serif;
-  width: 50%;
-  border: 10px solid #E76F51;
-  padding: 10px;
-  text-align: center;
+.button-box{ text-align: center;}
+.location, .vendor .contactus{
+    background-color: #E76F51;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lobster Two', 'Noto sans', 'sans-serif';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.home-grid h2:hover{
-    margin: auto 0;
-font-family: 'noto sans', sans-serif;
-width: 50%;
-border: 10px solid #E76F51;
-padding: 10px;
-text-align: center;
-background-color: #2A9D8F;
-color: black;
+.location:hover, .vendor:hover .contactus:hpver{
+    background-color: #2A9D8F;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Noto sans', 'sans-serif';
 }
+
 
 
 
