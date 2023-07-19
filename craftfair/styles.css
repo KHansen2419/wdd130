@@ -61,7 +61,7 @@ color: black;
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 10px;}
+    margin-top: 15px;}
 #hero-msg h1{ text-align: center;
     font-family: 'Lobster Two', 'Noto sans', 'sans-serif';
     background-color: #F4A261;
@@ -74,7 +74,7 @@ color: black;
 
 /*body of page */
 body {
-    background-color: #fefae0; 
+    background-color: white; 
     font-family: 'Noto sans', 'Helvetica', 'sans-serif';
     font-size: 22px;
     margin: 0;
@@ -90,6 +90,7 @@ main section{ text-align: center;
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: 1fr 1fr 1fr;
     }
 .logo { width: 80px; 
 background-color: #2A9D8F;} 
@@ -100,20 +101,20 @@ background-color: #2A9D8F;}
 .location-hours-card {
     margin: 200px 0;
     grid-column: 2/4;
-    grid-row: 2/3;
+    grid-row: 1/2;
     width: 80px;
     
 } 
 .become-a-vendor-card{
     margin: 200px 0;
     grid-column: 5/7;
-    grid-row: 2/3;
+    grid-row: 1/2;
     width: 80px;
     
 } 
 .contact-us-card{    margin: 200px 0;
     grid-column: 8/10;
-    grid-row: 2/3;
+    grid-row: 1/2;
     width: 80px;
     padding-top: 10px;
     height: 80px;
@@ -132,7 +133,7 @@ main section img {
     box-sizing: border-box;
 }
 .button-box{ text-align: center;}
-.location, .vendor .contactus{
+.location, .vendor .contactus {
     background-color: #E76F51;
     color: white;
     text-decoration: none;
@@ -142,8 +143,9 @@ main section img {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    grid-row: 2/3;
 }
-.location:hover, .vendor:hover .contactus:hpver{
+.location:hover, .vendor:hover .contactus:hover{
     background-color: #2A9D8F;
     color: black;
     text-decoration: underline;
