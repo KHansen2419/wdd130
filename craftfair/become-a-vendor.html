@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Valley Craft Fair | Become a Vendor</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Snake Valley Craft Fair | Home</title>
+    <link rel="stylesheet" href="styles/vendor-styles.css">
 </head>
 <body>
     <div id="content">
     <div id="background"></div>
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="logo.png" alt="Logo">
+            <img class="logo" src="images/logo.png" alt="Logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -34,13 +34,12 @@
                 You can talk with locals and sell your products at the same time.  </p>
 
         <section class="painting-card">
-                <img class="card-img" src="images/modern-art-studio-composition.jpg" alt="painting">
+                
                 <h4>Becoming a Vendor</h4>
                 <p> You can become a vendor through some easy steps! This craft fair is known in error and has a lot of success for our vendors.
                     If your items are handmade/homemade or homegrown, they can be sold at this craft fair. We accept all different types of crafts, books, food, etc.
                 </p>
-                <section class="pottery-card">
-                    <img class="card-img" src="images/close-up-girl-paints-vase-before-baking.jpg" alt="pottery"> 
+        <section class="painting-card">
                 <h4> What we require</h4>
                 <p> We will require you to give a full list of where you receive your items and materials for your handmade projects. You will need to tell us the type of homemade good you are wanting to sell, pictures will help.
                     You make your setup, meaning we will provide the space, but you must provide everything else to make your display. Our booth rent is based on how much you sell. If you sell over $150 in product then 
@@ -64,17 +63,62 @@
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="facebook.png" alt="fb icon">
+                    <img src="images/facebook.png" alt="fb icon">
                 </a>
             </a>
             <a href="https://twitter.com"  target="_blank">
-                <img src="twitter.png" alt="twitter icon">
+                <img src="images/twitter.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com"  target="_blank">
-                <img src="instagram.png" alt="instagram icon">
+                <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
     </footer>
 </div>
 </body>
 </html>
+
+<style>
+    .parallax {
+      /* The image used */
+      background-image src="modern-art-studio-composition.jpg";
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image src="close-up-girl-paints-vase-before-baking.jpg";
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+    </style>
+    
+    <!-- Container element -->
+    <div class="parallax"></div>
+
+
