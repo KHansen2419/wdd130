@@ -122,6 +122,7 @@ background-color: #2A9D8F;}
     border: 10px solid #E76F51;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #F4A261;
+    width: 100px;
 }
 .card-img:hover {
     opacity: .6;
