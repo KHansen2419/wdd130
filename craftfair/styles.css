@@ -67,14 +67,14 @@ color: black;
     background-color: #F4A261;
     color: black;
     font-size: 2.2em;
-    opacity: .6;
+    
 }
 
     
 
 /*body of page */
 body {
-    background-color: ##fff8f0; 
+    background-color: #fff8f0; 
     font-family: 'Noto sans', 'Helvetica', 'sans-serif';
     font-size: 22px;
     margin: 0;
@@ -84,6 +84,7 @@ main section{ text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 /*display grid*/
